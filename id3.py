@@ -199,7 +199,7 @@ def pretty_print_tree(root):
             rules.add(''.join(stack))
             stack.pop()
         elif 'attribute' in node:
-            ifnd = 'NEU ' if not stack else ' AND '
+            ifnd = 'NEU ' if not stack else ', VA '
             stack.append(ifnd + node['attribute'] + ' = ')
             for subnode_key in node['nodes']:
                 stack.append(subnode_key)
@@ -208,7 +208,7 @@ def pretty_print_tree(root):
             stack.pop()
 
     traverse(root, stack, rules)
-    result += "\n" + str(os.linesep.join(rules))
+    result += str(os.linesep.join(rules))
     # print(os.linesep.join(rules))
     return result
 	
@@ -239,7 +239,10 @@ def main():
     root = id3(data, uniqs, remaining_attributes, target_attribute)
 
     result = pretty_print_tree(root)
-    print(result)
+    # print(result)
+    f = open("resultID3.txt", "w")
+    f.write(result)
+    f.close()
 
 
 if __name__ == "__main__": main()

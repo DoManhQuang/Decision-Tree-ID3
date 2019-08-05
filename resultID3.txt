@@ -1,0 +1,19 @@
+NEU usd = Tb, VA nctt = Tb THI Thap
+NEU usd = Tb, VA nctt = Thap, VA slkt = Cao, VA lamphat = On dinh THI Thap
+NEU usd = Tb, VA nctt = Thap, VA slkt = Tb THI Thap
+NEU usd = Giam, VA slkt = Tb, VA lamphat = Tang THI Thap
+NEU usd = Tb, VA nctt = Cao THI Cao
+NEU usd = Giam, VA slkt = Tb, VA lamphat = Giam THI Thap
+NEU usd = Tang, VA lamphat = Giam, VA nctt = Tb THI Cao
+NEU usd = Giam, VA slkt = Tb, VA lamphat = On dinh THI Cao
+NEU usd = Tang, VA lamphat = Giam, VA nctt = Cao, VA slkt = Thap THI Cao
+NEU usd = Tb, VA nctt = Thap, VA slkt = Thap THI Thap
+NEU usd = Giam, VA slkt = Thap THI Thap
+NEU usd = Tb, VA nctt = Thap, VA slkt = Cao, VA lamphat = Giam THI Thap
+NEU usd = Tang, VA lamphat = Giam, VA nctt = Cao, VA slkt = Cao THI Cao
+NEU usd = Tang, VA lamphat = Giam, VA nctt = Thap THI Thap
+NEU usd = Tang, VA lamphat = Tang THI Cao
+NEU usd = Giam, VA slkt = Cao THI Cao
+NEU usd = Tang, VA lamphat = On dinh THI Cao
+NEU usd = Tang, VA lamphat = Giam, VA nctt = Cao, VA slkt = Tb THI Cao
+NEU usd = Tb, VA nctt = Thap, VA slkt = Cao, VA lamphat = Tang THI Thap

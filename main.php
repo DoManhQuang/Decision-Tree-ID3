@@ -3,6 +3,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="frontend.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js"></script>
 <script type="text/javascript" src="js/examples.js"></script>
 <script src="http://d3js.org/d3.v2.js"></script>
@@ -26,6 +27,7 @@ $("#Submit").click(function(e){
           var nctt = $("#nctt").val();
           var slkt = $("#slkt").val();
           var play = $("#play").val();
+          var tapluat = $(".tapluat");
           data = [
             {
               'usd': usd,
@@ -39,6 +41,7 @@ $("#Submit").click(function(e){
           var testModel = id3(examples,'play',features);
           drawGraph(testModel,'canvas');
           renderSamples(samples,$("#samples"),testModel,'play',features);
+          tapluat.show();
           if(usd != '' && lamphat != '' && nctt != '' && slkt != '')
           {
             renderSamples(data,$("#data"),testModel,'play',features);
@@ -74,6 +77,20 @@ $("#Submit").click(function(e){
     <div id="data-container">
   	<div  id='canvas'></div>
   	<div align="left">
+      <h3>Kết quả tập luật dự đoán giá vàng</h3>
+      <div class="tapluat" style="display: none;">
+        <p align="left" style=" margin-left: 50px; margin-right: 50px;">
+        <?php 
+          $url = "resultID3.txt";
+          $fh = fopen($url,'r');
+          while ($line = fgets($fh))
+          {
+              echo($line)."<br>";
+          }
+          fclose($fh);
+          ?>
+        </p>
+      </div>
       <h3>Kết quả dự liệu nhập trực tiếp</h3>
       <table id='data' border="1px;">
         <tr>
@@ -96,7 +113,7 @@ $("#Submit").click(function(e){
           <td>Kết Quả Thực Tế</td>
         </tr>
   	  </table>
-  	  <h3>Training Data</h3>
+  	  <h3>Dữ liệu xây dựng tập luật dự đoán giá vàng</h3>
   	  <table id='training' border="1px;">
         <tr>
           <td>Giá trị USD</td>
