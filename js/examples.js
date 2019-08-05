@@ -1,47 +1,141 @@
-//This file contains example training data and samples
-
-
-//some sample data we'll be using
-//http://www.cise.ufl.edu/~ddd/cap6635/Fall-97/Short-papers/2.htm
-// var examples = [
-// {day:'D1',outlook:'Sunny', temp:'Hot', humidity:'High', wind: 'Weak',play:'No'},
-// {day:'D2',outlook:'Sunny', temp:'Hot', humidity:'High', wind: 'Strong',play:'No'},
-// {day:'D3',outlook:'Overcast', temp:'Hot', humidity:'High', wind: 'Weak',play:'Yes'},
-// {day:'D4',outlook:'Rain', temp:'Mild', humidity:'High', wind: 'Weak',play:'Yes'},
-// {day:'D5',outlook:'Rain', temp:'Cool', humidity:'Normal', wind: 'Weak',play:'Yes'},
-// {day:'D6',outlook:'Rain', temp:'Cool', humidity:'Normal', wind: 'Strong',play:'No'},
-// {day:'D7',outlook:'Overcast', temp:'Cool', humidity:'Normal', wind: 'Strong',play:'Yes'},
-// {day:'D8',outlook:'Sunny', temp:'Mild', humidity:'High', wind: 'Weak',play:'No'},
-// {day:'D9',outlook:'Sunny', temp:'Cool', humidity:'Normal', wind: 'Weak',play:'Yes'},
-// {day:'D10',outlook:'Rain', temp:'Mild', humidity:'Normal', wind: 'Weak',play:'Yes'},
-// {day:'D11',outlook:'Sunny', temp:'Mild', humidity:'Normal', wind: 'Strong',play:'Yes'},
-// {day:'D12',outlook:'Overcast', temp:'Mild', humidity:'High', wind: 'Strong',play:'Yes'},
-// {day:'D13',outlook:'Overcast', temp:'Hot', humidity:'Normal', wind: 'Weak',play:'Yes'},
-// {day:'D14',outlook:'Rain', temp:'Mild', humidity:'High', wind: 'Strong',play:'No'}
-// ];
-
-// examples = _(examples);
-// var features = ['outlook', 'temp', 'humidity', 'wind'];
-// var samples = [{outlook:'Overcast', temp:'Mild', humidity:'High', wind: 'Strong',play: 'Yes'},
-// 	       {outlook:'Rain', temp:'Mild', humidity:'High', wind: 'Strong', play: 'No'},
-// 	       {outlook:'Sunny', temp:'Cool', humidity:'Normal', wind: 'Weak', play: 'Yes'}]
-
-
-// var examples = [
-// {'stt':'1',	'usd':'Tăng', 		'lamphat':'Tang', 	'nctt':'Thap', 		'slkt': 'TrungBinh', 	'play':'Cao'},
-// {'stt':'2',	'usd':'TrungBinh', 	'lamphat':'OnDinh', 'nctt':'TrungBinh', 'slkt': 'Cao', 			'play':'Thap'},
-// {'stt':'3',	'usd':'Tăng', 		'lamphat':'OnDinh', 'nctt':'Cao', 		'slkt': 'TrungBinh', 	'play':'Cao'},
-// {'stt':'4',	'usd':'TrungBinh', 	'lamphat':'Giam', 	'nctt':'Thap', 		'slkt': 'Cao', 			'play':'Thap'},
-// {'stt':'5',	'usd':'Giam',		'lamphat':'OnDinh', 'nctt':'Cao', 		'slkt': 'Thap', 		'play':'Thap'},
-// {'stt':'6',	'usd':'TrungBinh', 	'lamphat':'Giam', 	'nctt':'Thap', 		'slkt': 'TrungBinh', 	'play':'Thap'},
-// {'st':'7',	'usd':'Tăng', 		'lamphat':'Tang', 	'nctt':'Thap', 		'slkt': 'Thap', 		'play':'Cao'},
-// {'stt':'8',	'usd':'Giam', 		'lamphat':'Giam', 	'nctt':'Cao', 		'slkt': 'Cao', 			'play':'Cao'},
-// {'stt':'9',	'usd':'TrungBinh', 	'lamphat':'Giam',  	'nctt':'Thap', 		'slkt': 'Cao',			'play':'Thap'},
-// {'stt':'10','usd':'Giam', 		'lamphat':'Tang', 	'nctt':'Cao', 		'slkt': 'TrungBinh', 	'play':'Thap'},
-// ];
-
 
 var examples = [
+	{
+		"usd": "Tang",
+		"lamphat": "Tang",
+		"nctt": "Thap",
+		"slkt": "Tb",
+		"play": "Cao"
+	},
+	{
+		"usd": "Tb",
+		"lamphat": "on dinh",
+		"nctt": "Tb",
+		"slkt": "Cao",
+		"play": "Thap"
+	},
+	{
+		"usd": "Tang",
+		"lamphat": "on dinh",
+		"nctt": "Cao",
+		"slkt": "Tb",
+		"play": "Cao"
+	},
+	{
+		"usd": "Tb",
+		"lamphat": "Giam",
+		"nctt": "Thap",
+		"slkt": "Cao",
+		"play": "Thap"
+	},
+	{
+		"usd": "Giam",
+		"lamphat": "on dinh",
+		"nctt": "Cao",
+		"slkt": "Thap",
+		"play": "Thap"
+	},
+	{
+		"usd": "Tb",
+		"lamphat": "Giam",
+		"nctt": "Thap",
+		"slkt": "Tb",
+		"play": "Thap"
+	},
+	{
+		"usd": "Tang",
+		"lamphat": "Tang",
+		"nctt": "Thap",
+		"slkt": "Thap",
+		"play": "Cao"
+	},
+	{
+		"usd": "Giam",
+		"lamphat": "Giam",
+		"nctt": "Cao",
+		"slkt": "Cao",
+		"play": "Cao"
+	},
+	{
+		"usd": "Tb",
+		"lamphat": "Giam",
+		"nctt": "Thap",
+		"slkt": "Cao",
+		"play": "Thap"
+	},
+	{
+		"usd": "Giam",
+		"lamphat": "Tang",
+		"nctt": "Cao",
+		"slkt": "Tb",
+		"play": "Thap"
+	},
+	{
+		"usd": "Tb",
+		"lamphat": "Giam",
+		"nctt": "Thap",
+		"slkt": "Cao",
+		"play": "Cao"
+	},
+	{
+		"usd": "Cao",
+		"lamphat": "Giam",
+		"nctt": "Thap",
+		"slkt": "Tb",
+		"play": "Thap"
+	},
+	{
+		"usd": "Tb",
+		"lamphat": "Tang",
+		"nctt": "Tb",
+		"slkt": "Thap",
+		"play": "Thap"
+	},
+	{
+		"usd": "Tang",
+		"lamphat": "Giam",
+		"nctt": "Tb",
+		"slkt": "Thap",
+		"play": "Cao"
+	},
+	{
+		"usd": "Tang",
+		"lamphat": "Giam",
+		"nctt": "Cao",
+		"slkt": "Thap",
+		"play": "Cao"
+	},
+	{
+		"usd": "Tb",
+		"lamphat": "on dinh",
+		"nctt": "Cao",
+		"slkt": "Tb",
+		"play": "Cao"
+	},
+	{
+		"usd": "Giam",
+		"lamphat": "Tang",
+		"nctt": "Thap",
+		"slkt": "Thap",
+		"play": "Thap"
+	},
+	{
+		"usd": "Tb",
+		"lamphat": "Giam",
+		"nctt": "Cao",
+		"slkt": "Cao",
+		"play": "Cao"
+	},
+	{
+		"usd": "Tang",
+		"lamphat": "Giam",
+		"nctt": "Cao",
+		"slkt": "Thap",
+		"play": "Thap"
+	},
+];
+
+/* [
 	{
 		"stt": "1",
 		"usd": "Tăng",
@@ -132,7 +226,7 @@ var examples = [
 	},
 	{
 		"stt": "12",
-		"usd": "Tăng",
+		"usd": "Cao",
 		"lamphat": "Giảm",
 		"nctt": "Thấp",
 		"slkt": "Tb",
@@ -842,30 +936,24 @@ var examples = [
 		"slkt": "Tb",
 		"play": "Cao"
 	},
-];
+];  */
+
 
 examples = _(examples);
 var features = ['usd', 'lamphat', 'nctt', 'slkt'];
 var samples = [
 		  {
 		"usd": "Tb",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
+		"lamphat": "Giam",
+		"nctt": "Cao",
+		"slkt": "Cao",
 		"play": "Cao"
 	},
-	      {
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Thấp"
-	},
-	      {
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Thấp"
+	{
+		"usd": "Tang",
+		"lamphat": "Giam",
+		"nctt": "Cao",
+		"slkt": "Thap",
+		"play": "Thap"
 	},
 	       ];

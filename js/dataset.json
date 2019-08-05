@@ -89,7 +89,7 @@
 	},
 	{
 		"stt": "12",
-		"usd": "Tăng",
+		"usd": "Cao",
 		"lamphat": "Giảm",
 		"nctt": "Thấp",
 		"slkt": "Tb",
@@ -799,4 +799,7 @@
 		"slkt": "Tb",
 		"play": "Cao"
 	},
+	{
+		"stt": ""
+	}
 ]
