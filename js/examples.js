@@ -1,959 +1,829 @@
 
 var examples = [
 	{
-		"usd": "Tang",
-		"lamphat": "Tang",
-		"nctt": "Thap",
-		"slkt": "Tb",
-		"play": "Cao"
-	},
-	{
-		"usd": "Tb",
-		"lamphat": "on dinh",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Thap"
-	},
-	{
-		"usd": "Tang",
-		"lamphat": "on dinh",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
-	},
-	{
-		"usd": "Tb",
-		"lamphat": "Giam",
-		"nctt": "Thap",
-		"slkt": "Cao",
-		"play": "Thap"
-	},
-	{
-		"usd": "Giam",
-		"lamphat": "on dinh",
-		"nctt": "Cao",
-		"slkt": "Thap",
-		"play": "Thap"
-	},
-	{
-		"usd": "Tb",
-		"lamphat": "Giam",
-		"nctt": "Thap",
-		"slkt": "Tb",
-		"play": "Thap"
-	},
-	{
-		"usd": "Tang",
-		"lamphat": "Tang",
-		"nctt": "Thap",
-		"slkt": "Thap",
-		"play": "Cao"
-	},
-	{
-		"usd": "Giam",
-		"lamphat": "Giam",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
-	},
-	{
-		"usd": "Tb",
-		"lamphat": "Giam",
-		"nctt": "Thap",
-		"slkt": "Cao",
-		"play": "Thap"
-	},
-	{
-		"usd": "Giam",
-		"lamphat": "Tang",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thap"
-	},
-	{
-		"usd": "Tb",
-		"lamphat": "Giam",
-		"nctt": "Thap",
-		"slkt": "Cao",
-		"play": "Cao"
-	},
-	{
-		"usd": "Cao",
-		"lamphat": "Giam",
-		"nctt": "Thap",
-		"slkt": "Tb",
-		"play": "Thap"
-	},
-	{
-		"usd": "Tb",
-		"lamphat": "Tang",
-		"nctt": "Tb",
-		"slkt": "Thap",
-		"play": "Thap"
-	},
-	{
-		"usd": "Tang",
-		"lamphat": "Giam",
-		"nctt": "Tb",
-		"slkt": "Thap",
-		"play": "Cao"
-	},
-	{
-		"usd": "Tang",
-		"lamphat": "Giam",
-		"nctt": "Cao",
-		"slkt": "Thap",
-		"play": "Cao"
-	},
-	{
-		"usd": "Tb",
-		"lamphat": "on dinh",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
-	},
-	{
-		"usd": "Giam",
-		"lamphat": "Tang",
-		"nctt": "Thap",
-		"slkt": "Thap",
-		"play": "Thap"
-	},
-	{
-		"usd": "Tb",
-		"lamphat": "Giam",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
-	},
-	{
-		"usd": "Tang",
-		"lamphat": "Giam",
-		"nctt": "Cao",
-		"slkt": "Thap",
-		"play": "Thap"
-	},
-];
-
-/* [
-	{
 		"stt": "1",
-		"usd": "Tăng",
-		"lamphat": "Tăng ",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "2",
-		"usd": "Tb",
-		"lamphat": "Ổn định",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "ON DINH",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "3",
-		"usd": "Tăng ",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "4",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "5",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "6",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "7",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "8",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "9",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "10",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "11",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "12",
-		"usd": "Cao",
-		"lamphat": "Giảm",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "CAO",
+		"lamphat": "GIAM",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "13",
-		"usd": "Tb",
-		"lamphat": "Tăng ",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "TANG",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "14",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "15",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "16",
-		"usd": "Tb",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "17",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "THAP",
+		"play": "THẤP"
 	},
 	{
 		"stt": "18",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "19",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "20",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "21",
-		"usd": "Tăng",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "22",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "23",
-		"usd": "Tb",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "24",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "25",
-		"usd": "Tăng",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "26",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "27",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "28",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "29",
-		"usd": "Tb",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "30",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "31",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "32",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "33",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "34",
-		"usd": "Tb",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "35",
-		"usd": "Tăng",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "36",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "37",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "38",
-		"usd": "Tb",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "39",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "40",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "41",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "42",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "43",
-		"usd": "Tăng",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "44",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "45",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "46",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "47",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "48",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "49",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "50",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "51",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "52",
-		"usd": "Tb",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "53",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "54",
-		"usd": "Tăng",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "55",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "56",
-		"usd": "Tb",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "57",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "58",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "59",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "60",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "61",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "62",
-		"usd": "Tb",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "63",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "64",
-		"usd": "Tb",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "65",
-		"usd": "Tb",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "66",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "67",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "68",
-		"usd": "Tăng",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "69",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "70",
-		"usd": "Tb",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "71",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "72",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "73",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "74",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "CAO"
 	},
 	{
 		"stt": "75",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "76",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "77",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "78",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "79",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "80",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "81",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "82",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "83",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "84",
-		"usd": "Tăng",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "85",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "86",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "87",
-		"usd": "Tăng",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TANG",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "88",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "89",
-		"usd": "Giảm",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "90",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "91",
-		"usd": "Tăng",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
 		"stt": "92",
-		"usd": "Tb",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "93",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "94",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "CAO"
 	},
 	{
 		"stt": "95",
-		"usd": "Tăng",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "96",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "TB",
+		"play": "CAO"
 	},
 	{
 		"stt": "97",
-		"usd": "Giảm",
-		"lamphat": "Ổn định",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "ON DINH",
+		"nctt": "CAO",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "98",
-		"usd": "Tb",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Thấp",
-		"play": "Thấp"
+		"usd": "TB",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
 	{
 		"stt": "99",
-		"usd": "Giảm",
-		"lamphat": "Giảm",
-		"nctt": "Tb",
-		"slkt": "Cao",
-		"play": "Thấp"
+		"usd": "GIAM",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "CAO",
+		"play": "THAP"
 	},
 	{
 		"stt": "100",
-		"usd": "Tb",
-		"lamphat": "Tăng",
-		"nctt": "Thấp",
-		"slkt": "Tb",
-		"play": "Cao"
+		"usd": "TB",
+		"lamphat": "TANG",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "CAO"
 	},
-];  */
-
+];
 
 examples = _(examples);
 var features = ['usd', 'lamphat', 'nctt', 'slkt'];
 var samples = [
 		  {
-		"usd": "Tb",
-		"lamphat": "Giam",
-		"nctt": "Cao",
-		"slkt": "Cao",
-		"play": "Cao"
+		"usd": "CAO",
+		"lamphat": "GIAM",
+		"nctt": "THAP",
+		"slkt": "TB",
+		"play": "THAP"
 	},
 	{
-		"usd": "Tang",
-		"lamphat": "Giam",
-		"nctt": "Cao",
-		"slkt": "Thap",
-		"play": "Thap"
+		"usd": "TB",
+		"lamphat": "TANG",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "THAP"
 	},
-	       ];
+	{
+		"usd": "TANG",
+		"lamphat": "GIAM",
+		"nctt": "TB",
+		"slkt": "THAP",
+		"play": "CAO"
+	},
+];

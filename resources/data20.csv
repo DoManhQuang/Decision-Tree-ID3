@@ -1,21 +1,21 @@
 usd,lamphat,nctt,slkt,play
-Tang,Giam,Thap,Tb,Thap
-Tang,Tang,Thap,Tb,Cao
-Tang,On dinh,Cao,Tb,Cao
-Tang,Tang,Thap,Thap,Cao
-Tang,Giam,Tb,Thap,Cao
-Tang,Giam,Cao,Thap,Cao
-Tang,Giam,Cao,Thap,Thap
-Tb,On dinh,Tb,Cao,Thap
-Tb,Giam,Thap,Cao,Thap
-Tb,Giam,Thap,Tb,Thap
-Tb,Giam,Thap,Cao,Thap
-Tb,Giam,Thap,Cao,Cao
-Tb,Tang,Tb,Thap,Thap
-Tb,On dinh,Cao,Tb,Cao
-Tb,Giam,Cao,Cao,Cao
-Giam,On dinh,Cao,Thap,Thap
-Giam,Giam,Cao,Cao,Cao
-Giam,Tang,Cao,Tb,Thap
-Giam,Tang,Thap,Thap,Thap
-Giam,On dinh,Cao,Tb,Cao
+TANG,GIAM,THAP,TB,THAP
+TANG,TANG,THAP,TB,CAO
+TANG,ON DINH,CAO,TB,CAO
+TANG,TANG,THAP,THAP,CAO
+TANG,GIAM,TB,THAP,CAO
+TANG,GIAM,CAO,THAP,CAO
+TANG,GIAM,CAO,THAP,THAP
+TB,ON DINH,TB,CAO,THAP
+TB,GIAM,THAP,CAO,THAP
+TB,GIAM,THAP,TB,THAP
+TB,GIAM,THAP,CAO,THAP
+TB,GIAM,THAP,CAO,CAO
+TB,TANG,TB,THAP,THAP
+TB,ON DINH,CAO,TB,CAO
+TB,GIAM,CAO,CAO,CAO
+GIAM,ON DINH,CAO,THAP,THAP
+GIAM,GIAM,CAO,CAO,CAO
+GIAM,TANG,CAO,TB,THAP
+GIAM,TANG,THAP,THAP,THAP
+GIAM,ON DINH,CAO,TB,CAO

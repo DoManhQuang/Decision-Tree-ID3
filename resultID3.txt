@@ -1,19 +1,119 @@
-NEU usd = Tb, VA nctt = Tb THI Thap
-NEU usd = Tb, VA nctt = Thap, VA slkt = Cao, VA lamphat = On dinh THI Thap
-NEU usd = Tb, VA nctt = Thap, VA slkt = Tb THI Thap
-NEU usd = Giam, VA slkt = Tb, VA lamphat = Tang THI Thap
-NEU usd = Tb, VA nctt = Cao THI Cao
-NEU usd = Giam, VA slkt = Tb, VA lamphat = Giam THI Thap
-NEU usd = Tang, VA lamphat = Giam, VA nctt = Tb THI Cao
-NEU usd = Giam, VA slkt = Tb, VA lamphat = On dinh THI Cao
-NEU usd = Tang, VA lamphat = Giam, VA nctt = Cao, VA slkt = Thap THI Cao
-NEU usd = Tb, VA nctt = Thap, VA slkt = Thap THI Thap
-NEU usd = Giam, VA slkt = Thap THI Thap
-NEU usd = Tb, VA nctt = Thap, VA slkt = Cao, VA lamphat = Giam THI Thap
-NEU usd = Tang, VA lamphat = Giam, VA nctt = Cao, VA slkt = Cao THI Cao
-NEU usd = Tang, VA lamphat = Giam, VA nctt = Thap THI Thap
-NEU usd = Tang, VA lamphat = Tang THI Cao
-NEU usd = Giam, VA slkt = Cao THI Cao
-NEU usd = Tang, VA lamphat = On dinh THI Cao
-NEU usd = Tang, VA lamphat = Giam, VA nctt = Cao, VA slkt = Tb THI Cao
-NEU usd = Tb, VA nctt = Thap, VA slkt = Cao, VA lamphat = Tang THI Thap
+NEU usd = TANG, VA slkt = THAP, VA lamphat = ON DINH, VA nctt = CAO THI THAP
+
+NEU usd = TANG, VA slkt = THAP, VA lamphat = GIAM, VA nctt = TB THI CAO
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = ON DINH, VA nctt = THAP THI THAP
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = GIAM, VA nctt = TB THI THAP
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = GIAM, VA nctt = CAO THI CAO
+
+NEU usd = TB, VA slkt = TB, VA nctt = CAO, VA lamphat = GIAM THI CAO
+
+NEU usd = TB, VA slkt = CAO, VA nctt = CAO, VA lamphat = ON DINH THI CAO
+
+NEU usd = TANG, VA slkt = THAP, VA lamphat = ON DINH, VA nctt = THAP THI THAP
+
+NEU usd = TB, VA slkt = THAP THI THAP
+
+NEU usd = TANG, VA slkt = THAP, VA lamphat = TANG, VA nctt = CAO THI CAO
+
+NEU usd = TANG, VA slkt = THAP, VA lamphat = GIAM, VA nctt = THAP THI CAO
+
+NEU usd = TANG, VA slkt = CAO, VA nctt = TB, VA lamphat = ON DINH THI CAO
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = TANG, VA nctt = TB THI CAO
+
+NEU usd = TB, VA slkt = TB, VA nctt = THAP, VA lamphat = TANG THI THAP
+
+NEU usd = TANG, VA slkt = CAO, VA nctt = CAO THI CAO
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = ON DINH, VA nctt = CAO THI CAO
+
+NEU usd = CAO THI THAP
+
+NEU usd = TANG, VA slkt = CAO, VA nctt = TB, VA lamphat = TANG THI CAO
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = ON DINH, VA nctt = TB THI THAP
+
+NEU usd = TANG, VA slkt = CAO, VA nctt = TB, VA lamphat = GIAM THI CAO
+
+NEU usd = TANG, VA slkt = CAO, VA nctt = THAP, VA lamphat = TANG THI CAO
+
+NEU usd = GIAM, VA slkt = TB, VA lamphat = ON DINH, VA nctt = TB THI THAP
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = ON DINH, VA nctt = TB THI CAO
+
+NEU usd = TB, VA slkt = TB, VA nctt = THAP, VA lamphat = ON DINH THI THAP
+
+NEU usd = TB, VA slkt = CAO, VA nctt = CAO, VA lamphat = TANG THI CAO
+
+NEU usd = TB, VA slkt = CAO, VA nctt = TB, VA lamphat = TANG THI THAP
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = GIAM, VA nctt = THAP THI THAP
+
+NEU usd = TB, VA slkt = TB, VA nctt = THAP, VA lamphat = GIAM THI THAP
+
+NEU usd = TB, VA slkt = TB, VA nctt = CAO, VA lamphat = ON DINH THI CAO
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = GIAM, VA nctt = THAP THI CAO
+
+NEU usd = TB, VA slkt = TB, VA nctt = CAO, VA lamphat = TANG THI CAO
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = TANG, VA nctt = THAP THI THAP
+
+NEU usd = GIAM, VA slkt = THAP, VA nctt = TB THI CAO
+
+NEU usd = TB, VA slkt = CAO, VA nctt = TB, VA lamphat = GIAM THI CAO
+
+NEU usd = TB, VA slkt = CAO, VA nctt = THAP, VA lamphat = TANG THI THAP
+
+NEU usd = TANG, VA slkt = THAP, VA lamphat = ON DINH, VA nctt = TB THI THAP
+
+NEU usd = TB, VA slkt = CAO, VA nctt = THAP, VA lamphat = GIAM THI THAP
+
+NEU usd = TANG, VA slkt = CAO, VA nctt = THAP, VA lamphat = ON DINH THI CAO
+
+NEU usd = TB, VA slkt = CAO, VA nctt = THAP, VA lamphat = ON DINH THI THAP
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = GIAM, VA nctt = CAO THI THAP
+
+NEU usd = GIAM, VA slkt = THAP, VA nctt = THAP THI THAP
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = ON DINH, VA nctt = THAP THI CAO
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = TANG, VA nctt = THAP THI CAO
+
+NEU usd = GIAM, VA slkt = TB, VA lamphat = GIAM THI THAP
+
+NEU usd = GIAM, VA slkt = TB, VA lamphat = TANG THI THAP
+
+NEU usd = GIAM, VA slkt = THAP, VA nctt = CAO THI THAP
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = TANG, VA nctt = TB THI THAP
+
+NEU usd = TANG, VA slkt = THAP, VA lamphat = GIAM, VA nctt = CAO THI CAO
+
+NEU usd = GIAM, VA slkt = TB, VA lamphat = ON DINH, VA nctt = CAO THI THAP
+
+NEU usd = GIAM, VA slkt = TB, VA lamphat = ON DINH, VA nctt = THAP THI THAP
+
+NEU usd = TB, VA slkt = TB, VA nctt = TB THI CAO
+
+NEU usd = TANG, VA slkt = TB, VA lamphat = TANG, VA nctt = CAO THI CAO
+
+NEU usd = TANG, VA slkt = THAP, VA lamphat = TANG, VA nctt = TB THI CAO
+
+NEU usd = TANG, VA slkt = THAP, VA lamphat = TANG, VA nctt = THAP THI CAO
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = TANG, VA nctt = CAO THI THAP
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = GIAM, VA nctt = TB THI CAO
+
+NEU usd = TB, VA slkt = CAO, VA nctt = CAO, VA lamphat = GIAM THI CAO
+
+NEU usd = TB, VA slkt = CAO, VA nctt = TB, VA lamphat = ON DINH THI THAP
+
+NEU usd = GIAM, VA slkt = CAO, VA lamphat = ON DINH, VA nctt = CAO THI THAP
+
+NEU usd = TANG, VA slkt = CAO, VA nctt = THAP, VA lamphat = GIAM THI CAO

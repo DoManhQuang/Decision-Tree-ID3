@@ -220,8 +220,15 @@ def main():
 
     # config = load_config(argv[1])
 
+    # config = {
+    #     'data_file' : './resources/data20.csv',
+    #     'data_mappers' : [],
+    #     'data_project_columns' : ['usd', 'lamphat', 'nctt', 'slkt', 'play'],
+    #     'target_attribute' : 'play'
+    # }
+
     config = {
-        'data_file' : './resources/data20.csv',
+        'data_file' : './resources/data100.csv',
         'data_mappers' : [],
         'data_project_columns' : ['usd', 'lamphat', 'nctt', 'slkt', 'play'],
         'target_attribute' : 'play'
